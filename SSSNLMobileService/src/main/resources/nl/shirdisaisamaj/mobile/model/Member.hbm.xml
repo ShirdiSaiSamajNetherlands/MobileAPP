@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="nl.shirdisaisamaj.mobile.model">
+	<class name="Member" table="MEMBER">
+		<id name="id" column="ID">
+			<generator class="native"/>
+		</id>
+		<property name="name" type="string" column="NAME" />
+		<property name="address" type="string" column="ADDRESS" />
+		<property name="dateOfBirth" type="date" column="DATE_OF_BIRTH" />
+		<property name="age" type="integer" column="AGE" />
+		<property name="mobileNumber" type="string" column="MOBILE_NUMBER" />
+		<property name="landLineNumber" type="string" column="LANDLINE_NUMBER" />
+		<property name="email" type="string" column="EMAIL" />
+		<property name="seva1" type="integer" column="SEVA_1" />
+		<property name="seva2" type="integer" column="SEVA_2" />
+		<property name="seva3" type="integer" column="SEVA_3" />
+		<property name="seva4" type="integer" column="SEVA_4" />
+	</class>	
+</hibernate-mapping>

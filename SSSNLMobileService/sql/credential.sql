@@ -1,0 +1,7 @@
+CREATE TABLE shirdisa_mobileapp.CREDENTIAL (
+   id INT AUTO_INCREMENT NOT NULL,
+   username VARCHAR(20) NOT NULL,
+   password VARCHAR(20) NOT NULL,
+  PRIMARY KEY (id)
+);
+COMMIT;
