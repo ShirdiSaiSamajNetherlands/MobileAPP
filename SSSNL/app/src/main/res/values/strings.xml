@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SSSNL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Admin</item>
+        <item >Events</item>
+        <item >Contact us</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/home</item>
+        <item>@mipmap/admin</item>
+        <item>@mipmap/events</item>
+        <item>@mipmap/contact_us</item>
+    </array>
+</resources>
